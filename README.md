@@ -13,7 +13,7 @@
 ```
 
 
-`POST /api/v1/track
+`POST /api/v1/track`
 ```
 {
   "userID": 1,
