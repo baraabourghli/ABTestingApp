@@ -2,7 +2,8 @@
 
 - API to do AB Testing.
 
-# API
+===
+### API
 
 `POST /api/v1/variants`
 ```
@@ -20,3 +21,8 @@
   "experiment": "signups"
 }
 ```
+
+===
+
+### Example dashboard
+![Dashbord](https://github.com/duriana/ABTestingApp/dashboard.png)
