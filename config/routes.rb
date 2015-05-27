@@ -6,4 +6,11 @@ Rails.application.routes.draw do
   post '/vanity/reset'
   post '/vanity/add_participant'
   get '/vanity/image'
+
+  namespace :api, defaults: { format: :json } do
+    namespace :v1 do
+      post '/variants' => 'ab_testings#variants'
+      post '/track' => 'ab_testing#track'
+    end
+  end
 end
