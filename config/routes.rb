@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
       post '/variants' => 'ab_testings#variants'
-      post '/track' => 'ab_testing#track'
+      post '/track' => 'ab_testings#track'
     end
   end
 end
