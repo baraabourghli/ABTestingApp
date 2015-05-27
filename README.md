@@ -25,4 +25,4 @@
 ===
 
 ### Example dashboard
-![Dashbord](https://github.com/duriana/ABTestingApp/dashboard.png)
+![Dashbord](https://github.com/duriana/ABTestingApp/Dashboard.png)
